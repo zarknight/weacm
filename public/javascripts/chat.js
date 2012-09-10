@@ -33,6 +33,8 @@
       cbutton.inject(csender);
       csender.inject(cpanel);
       cpanel.inject(this.container);
+
+      cbutton.setStyle('display','none');
     },
 
     initChannelSelector: function() {

@@ -5,7 +5,8 @@ block append stylesheets
 
 block javascripts_head
   script(type="text/javascript", src="/socket.io/socket.io.js")
-  script(type="text/javascript", src="/javascripts/lib/require.js", data-main="/javascripts/chat")
+  script(type="text/javascript", src="/javascripts/lib/mootools-core.js")
+  script(type="text/javascript", src="/javascripts/chat.js")
 
 block content
   #chat-container
